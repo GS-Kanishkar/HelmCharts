@@ -27,3 +27,13 @@ If i want to update anything then i have to update all the files and apply these
 
 
 
+#   With Helm
+
+` helm create my-helm
+ `
+
+![image](https://github.com/user-attachments/assets/c7d83ddb-4353-43b2-83e9-b83dbb9cecf2)
+
+
+
+
