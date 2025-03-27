@@ -70,13 +70,46 @@ updated dev image to busybox
 
 ![image](https://github.com/user-attachments/assets/c703c596-58be-48a3-b63b-7b8f9a9cae4a)
 
-![image](https://github.com/user-attachments/assets/e3915e1f-63ea-419c-bc0e-ffd4cdd6338b)
+![image](https://github.com/user-attachments/assets/6e1e5c2e-dac2-4506-b9b8-b4a173b739f2)
+
 
 
 helm upgrade
 
-![image](https://github.com/user-attachments/assets/c599c795-6570-454c-ba1e-e068d0814bf9)
+![image](https://github.com/user-attachments/assets/5e509c75-21ef-4488-bee5-3add74e91034)
+
+kubectl get all
+it deleting the nginx pod and creating the httpd image
+![image](https://github.com/user-attachments/assets/ad7109ad-d87b-484a-b797-4a290ed868ad)
+
+localhost:80
+![image](https://github.com/user-attachments/assets/403c2323-f8ee-403f-bfe2-19521a6bf346)
 
 
+helm rollback
+![image](https://github.com/user-attachments/assets/3a2be493-8535-44e3-a251-fc66d5147e3e)
+
+
+localhost80
+![image](https://github.com/user-attachments/assets/4807d888-0554-4adb-8de0-b0da87c982c9)
+
+helm history
+easily we can track
+
+![image](https://github.com/user-attachments/assets/3c4d7582-0ace-40a1-a054-42e91a9942ec)
+
+helm uninstall
+it will delete all the resources
+
+![image](https://github.com/user-attachments/assets/c03956ef-c33b-4e5a-8446-46354dd8adcf)
+
+
+helm uninstall all
+
+![image](https://github.com/user-attachments/assets/311d6ab5-09eb-4876-a810-46603d7a790f)
+
+kubectl get all
+
+![image](https://github.com/user-attachments/assets/982dd0b6-38f6-48bb-a891-fea461644b72)
 
 
