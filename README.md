@@ -32,7 +32,8 @@ If i want to update anything then i have to update all the files and apply these
 ` helm create my-helm
  `
 
-![image](https://github.com/user-attachments/assets/c7d83ddb-4353-43b2-83e9-b83dbb9cecf2)
+![image](https://github.com/user-attachments/assets/14eb2f70-40d1-4d83-8137-7ae920bd40eb)
+
 
 
 
