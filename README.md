@@ -34,6 +34,48 @@ If i want to update anything then i have to update all the files and apply these
 
 ![image](https://github.com/user-attachments/assets/14eb2f70-40d1-4d83-8137-7ae920bd40eb)
 
+our files for the helm
+
+![image](https://github.com/user-attachments/assets/b9cc8c74-b779-4955-b3c9-bfc1df2b0893)
+
+helm install
+
+`` helm install dev-nginx ./my-helm -f my-helm/Values-dev.yaml
+``
+![image](https://github.com/user-attachments/assets/89b8cfc5-1fbb-4e65-98a5-8f7e055a60c5)
+
+
+helm list
+
+![image](https://github.com/user-attachments/assets/82c3e21b-f1d6-4366-9db6-4cde08d68367)
+
+helm install qa
+![image](https://github.com/user-attachments/assets/6bf70ea2-5d0e-48e2-a064-3a99d3adc8dc)
+
+helm install prod
+![image](https://github.com/user-attachments/assets/7d56729e-f330-4efa-85a8-4c6c7b8e00c3)
+
+helm list 
+3 versions is created
+
+![image](https://github.com/user-attachments/assets/eba1e1fd-fa82-44e6-a20e-899b54caf754)
+
+kubectl get all
+![image](https://github.com/user-attachments/assets/899be74d-ed4d-4c4c-a36e-7bd7a3abbc46)
+
+
+updated dev image to busybox
+
+![image](https://github.com/user-attachments/assets/606af8c2-f608-4f30-8df9-ea21eec13e25)
+
+![image](https://github.com/user-attachments/assets/c703c596-58be-48a3-b63b-7b8f9a9cae4a)
+
+![image](https://github.com/user-attachments/assets/e3915e1f-63ea-419c-bc0e-ffd4cdd6338b)
+
+
+helm upgrade
+
+![image](https://github.com/user-attachments/assets/c599c795-6570-454c-ba1e-e068d0814bf9)
 
 
 
