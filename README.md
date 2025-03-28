@@ -33,9 +33,10 @@ With helm for same 3 environments we can create only 1 deploy and 1 service file
 and we can specify the environment specific details on the environment values yaml files
 
 
-```     helm create my-helm
+```    helm create my-helm
  ```
 
+```
 my-helm/
 ├── charts/          # Dependencies (sub-charts)
 ├── templates/       # Kubernetes YAML templates
@@ -46,7 +47,7 @@ my-helm/
 ├── values.yaml      # Default configuration values
 ├── Chart.yaml       # Chart metadata (name, version, etc.)
 ├── README.md        # Chart documentation
-
+```
 ![image](https://github.com/user-attachments/assets/14eb2f70-40d1-4d83-8137-7ae920bd40eb)
 
 our files for the helm
