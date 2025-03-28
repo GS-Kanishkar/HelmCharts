@@ -66,23 +66,26 @@ helm list
 ![image](https://github.com/user-attachments/assets/82c3e21b-f1d6-4366-9db6-4cde08d68367)
 
 helm install qa
+
 ![image](https://github.com/user-attachments/assets/6bf70ea2-5d0e-48e2-a064-3a99d3adc8dc)
 
 helm install prod
+
 ![image](https://github.com/user-attachments/assets/7d56729e-f330-4efa-85a8-4c6c7b8e00c3)
 
 helm list 
+
 3 versions is created
 
 ![image](https://github.com/user-attachments/assets/eba1e1fd-fa82-44e6-a20e-899b54caf754)
 
 kubectl get all
+
 ![image](https://github.com/user-attachments/assets/899be74d-ed4d-4c4c-a36e-7bd7a3abbc46)
 
 
-updated dev image to busybox
+updated dev nginx image to httpd image
 
-![image](https://github.com/user-attachments/assets/606af8c2-f608-4f30-8df9-ea21eec13e25)
 
 ![image](https://github.com/user-attachments/assets/c703c596-58be-48a3-b63b-7b8f9a9cae4a)
 
