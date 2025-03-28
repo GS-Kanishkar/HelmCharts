@@ -86,9 +86,6 @@ kubectl get all
 
 updated dev nginx image to httpd image
 
-
-![image](https://github.com/user-attachments/assets/c703c596-58be-48a3-b63b-7b8f9a9cae4a)
-
 ![image](https://github.com/user-attachments/assets/6e1e5c2e-dac2-4506-b9b8-b4a173b739f2)
 
 
@@ -99,25 +96,32 @@ helm upgrade
 
 kubectl get all
 it deleting the nginx pod and creating the httpd image
+
 ![image](https://github.com/user-attachments/assets/ad7109ad-d87b-484a-b797-4a290ed868ad)
 
-localhost:80
+localhost:80  -> httpd image is loading
+
 ![image](https://github.com/user-attachments/assets/403c2323-f8ee-403f-bfe2-19521a6bf346)
 
 
-helm rollback
+helm rollback -> it rollbacked to version1 -> nginx image
+
 ![image](https://github.com/user-attachments/assets/3a2be493-8535-44e3-a251-fc66d5147e3e)
 
 
 localhost80
+
 ![image](https://github.com/user-attachments/assets/4807d888-0554-4adb-8de0-b0da87c982c9)
 
+```
 helm history
-easily we can track
+```
+easily we can track all the versions
 
 ![image](https://github.com/user-attachments/assets/3c4d7582-0ace-40a1-a054-42e91a9942ec)
 
 helm uninstall
+
 it will delete all the resources
 
 ![image](https://github.com/user-attachments/assets/c03956ef-c33b-4e5a-8446-46354dd8adcf)
