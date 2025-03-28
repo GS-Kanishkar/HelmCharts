@@ -32,9 +32,9 @@ If i want to update anything then i have to update all the files and apply these
 With helm for same 3 environments we can create only 1 deploy and 1 service file with placeholders
 and we can specify the environment specific details on the environment values yaml files
 
-
-```    helm create my-helm
- ```
+```
+helm create my-helm
+```
 
 ```
 my-helm/
